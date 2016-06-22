@@ -18,4 +18,9 @@ public class MainController {
     public String starter() {
         return "starter";
     }
+
+    @RequestMapping("/ss")
+    public String ss() {
+        return "ss";
+    }
 }
