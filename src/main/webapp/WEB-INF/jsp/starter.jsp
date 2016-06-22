@@ -42,6 +42,8 @@
                         </div>
                     </div>
 
+                    <div></div>
+
                     <div class="form-group" style="margin-top:20px;">
                         <label>학부모 연락처</label>
                         <div class="input-group">
