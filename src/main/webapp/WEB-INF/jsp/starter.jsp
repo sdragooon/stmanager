@@ -53,7 +53,7 @@
                                 <option>011</option>
                             </select>
                             <div class="input-group-addon" style="border:0px;">-</div>
-                            <input type="text" style="text-align:center;" class="form-control" id="exampleInputAmount" placeholder="0000"/>
+                            <input type="text" style="text-align:center;width:200px;" class="form-control" id="exampleInputAmount" placeholder="0000"/>
                             <div class="input-group-addon" style="border:0px;">-</div>
                             <input type="text" style="text-align:center;" class="form-control" id="exampleInputAmount" placeholder="0000"/>
                         </div>

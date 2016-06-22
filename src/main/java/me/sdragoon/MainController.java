@@ -18,9 +18,4 @@ public class MainController {
     public String starter() {
         return "starter";
     }
-
-    @RequestMapping("/st")
-    public String st() {
-        return "st";
-    }
 }
