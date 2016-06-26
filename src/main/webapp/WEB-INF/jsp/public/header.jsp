@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <header class="main-header">
-  <a href="index2.html" class="logo">
+  <a href="/" class="logo">
     <span class="logo-mini"><b>덕소</b></span>
     <span class="logo-lg"><b>덕소영어숲</b></span>
   </a>
@@ -128,15 +128,17 @@
   <section class="sidebar">
     <ul class="sidebar-menu">
       <li class="header">MENU</li>
-      <li class="treeview">
-        <a href="#"><i class="fa fa-book"></i> <span>등록</span> <i class="fa fa-angle-left pull-right"></i></a>
-        <ul class="treeview-menu">
-          <li><a href="#">수업등록</a></li>
-          <li><a href="#">회원등록</a></li>
-        </ul>
-      </li>
-      <li class="active"><a href="#"><i class="fa fa-link"></i> <span>회원목록</span></a></li>
-      <li><a href="#"><i class="fa fa-link"></i> <span>미등록</span></a></li>
+      <%--<li class="treeview">--%>
+        <%--<a href="#"><i class="fa fa-book"></i> <span>등록</span> <i class="fa fa-angle-left pull-right"></i></a>--%>
+        <%--<ul class="treeview-menu">--%>
+          <%--<li><a href="/cj">수업등록</a></li>--%>
+          <%--<li><a href="/sj">회원등록</a></li>--%>
+        <%--</ul>--%>
+      <%--</li>--%>
+      <li><a href="/cj"><i class="fa fa-book"></i> <span>수업등록</span></a></li>
+      <li><a href="/sj"><i class="fa fa-child"></i> <span>회원등록</span></a></li>
+      <li><a href="#"><i class="fa fa-file-text-o"></i> <span>회원관리</span></a></li>
+      <li><a href="#"><i class="fa fa-credit-card"></i> <span>원비관리</span></a></li>
     </ul>
   </section>
 </aside>

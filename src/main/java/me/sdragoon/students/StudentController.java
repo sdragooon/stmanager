@@ -39,11 +39,6 @@ public class StudentController {
     @Autowired
     private ModelMapper modelMapper;
 
-    @RequestMapping(value = "/studentjoin", method = GET)
-    public String studentjoin() {
-        return "/studentjoin";
-    }
-
     @RequestMapping(value = "/students", method = POST)
     public ResponseEntity createStudent(@RequestBody @Valid Student student,
                                         BindingResult result) {

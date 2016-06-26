@@ -14,8 +14,13 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping("/starter")
-    public String starter() {
-        return "starter";
+    @RequestMapping("/sj")
+    public String studentjoin() {
+        return "studentjoin";
+    }
+
+    @RequestMapping("/cj")
+    public String classjoin() {
+        return "classjoin";
     }
 }
